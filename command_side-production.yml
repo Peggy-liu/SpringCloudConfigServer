@@ -9,3 +9,9 @@ spring:
       enabled: true
       settings:
         web-allow-others: true
+management:
+  endpoints:
+    web:
+      exposure:
+        include: *
+  
