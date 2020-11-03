@@ -4,14 +4,5 @@ spring:
     port: 5672
     username: guest
     password: guest
-  h2:
-    console:
-      enabled: true
-      settings:
-        web-allow-others: true
-management:
-  endpoints:
-    web:
-      exposure:
-        include: *
+
   
